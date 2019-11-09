@@ -31,6 +31,14 @@ extensions = [
 
 
 autoclass_content = "both" #"init"
+#autodoc_member_order = "groupwise"
+autodoc_member_order = "bysource"
+autodoc_inherit_docstrings = False
+
+add_module_names = True
+
+
+
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -45,6 +53,9 @@ pygments_style = 'default'
 intersphinx_mapping = {
     'rtd': ('https://docs.readthedocs.io/en/latest/', None),
     'sphinx': ('http://www.sphinx-doc.org/en/stable/', None),
+    'python': ('https://docs.python.org/', None),
+    'numpy': ('https://docs.scipy.org/doc/numpy/', None),
+    'PyTorch': ('http://pytorch.org/docs/master/', None),
 }
 
 html_theme = 'sphinx_rtd_theme'

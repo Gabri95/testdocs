@@ -8,6 +8,7 @@
    :caption: Package Reference
 
    api/test.something
+   api/test.somethingelse
 
 Indices and tables
 ------------------
